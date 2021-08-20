@@ -1,0 +1,60 @@
+.post-type-post .editor-post-title__input {
+  position: relative;
+  font-weight: 700;
+  font-size: 32px;
+  color: #001e57;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+  padding: 0px;
+  
+}
+.block-editor-rich-text__editable code {
+  color: #001e57;
+  background: #001e5714;
+}
+.post-type-post .editor-post-title {
+  position: relative;
+  padding: 40px 40px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 35px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.10);
+  -ms-box-shadow: 0px 0px 20px rgba(0,0,0,0.10);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.10);
+  border-bottom: 3px solid #001e57;
+  max-width: calc( 1160px - 0px );
+  margin: 0 auto;
+}
+
+.post-type-page .editor-post-title__input {
+  position: relative;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:left;
+    font-size: 52px;
+    color: #ffffff;
+    line-height: 1.3em;
+    font-weight: 700;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    max-width: 1199px;
+    margin: 0 auto;
+}
+
+.post-type-page .editor-post-title {
+  margin-bottom: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding: 115px;
+  background-image: -ms-linear-gradient(left, rgba(0,18,52,0.95) 0%, rgba(255,255,255,0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0,18,52,0.95) 0%, rgba(255,255,255,0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0,18,52,0.95) 0%, rgba(255,255,255,0) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0,18,52,0.95)), color-stop(100, rgba(255,255,255,0)));
+  background-image: -webkit-linear-gradient(left, rgba(0,18,52,0.95) 0%, rgba(255,255,255,0) 100%);
+  background-image: linear-gradient(to right, rgba(0,18,52,0.95) 0%, rgba(255,255,255,0) 100%);
+}
